@@ -129,3 +129,10 @@ sudo systemctl start postgresql
 sudo systemctl enable postgresql
 sudo apt-get --yes install pgadmin3
 sudo -u postgres psql postgres -c "alter user postgres with password 'postgres';"
+
+
+#######################################################################
+# Misc
+#######################################################################
+# Need this to make guard work with spring on larger projects.
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
