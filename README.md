@@ -1,4 +1,7 @@
 # Worksation Build
 
 ## Summary
-Automated build script for Ubuntu Budgie development workstation.
+Automated build for Ubuntu development workstation.
+
+## Usage
+Run `build-base.sh`
