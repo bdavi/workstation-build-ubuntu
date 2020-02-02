@@ -13,6 +13,7 @@ sudo apt-get --yes install tmux
 sudo apt-get --yes install tree
 sudo apt-get --yes install wget
 sudo apt-get --yes install xclip
+sudo apt-get --yes install exfat-fuse exfat-utils
 
 sudo snap install --classic heroku
 
