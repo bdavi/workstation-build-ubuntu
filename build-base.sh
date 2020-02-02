@@ -6,19 +6,20 @@ sudo apt-get update
 # Tools
 #######################################################################
 sudo apt-get --yes install curl
-sudo apt-get --yes install wget
 sudo apt-get --yes install git
-sudo apt-get --yes install tree
-sudo apt-get --yes install tmux
-sudo apt-get --yes install xclip
 sudo apt-get --yes install ranger
 sudo apt-get --yes install silversearcher-ag
+sudo apt-get --yes install tmux
+sudo apt-get --yes install tree
+sudo apt-get --yes install wget
+sudo apt-get --yes install xclip
+
 sudo snap install --classic heroku
 
 
-# #######################################################################
-# # zsh
-# #######################################################################
+#######################################################################
+# zsh
+#######################################################################
 sudo apt-get --yes install zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -53,25 +54,25 @@ vim +'PlugInstall --sync' +qa
 #######################################################################
 # Apps
 #######################################################################
-sudo apt-get --yes install gimp
-sudo apt-get --yes install chromium-browser
-sudo apt-get --yes install terminator
-sudo apt-get --yes install virtualbox
-sudo apt-get --yes install zeal
-sudo apt-get --yes install doublecmd-gtk
-sudo apt-get --yes install keepassxc
-sudo apt-get --yes install flameshot
-sudo apt-get --yes install libreoffice
 sudo apt-get --yes install audacity
-sudo apt-get --yes install kazam
+sudo apt-get --yes install chromium-browser
+sudo apt-get --yes install doublecmd-gtk
 sudo apt-get --yes install evince
-sudo apt-get --yes install thunderbird
+sudo apt-get --yes install flameshot
+sudo apt-get --yes install gimp
+sudo apt-get --yes install kazam
+sudo apt-get --yes install keepassxc
+sudo apt-get --yes install libreoffice
 sudo apt-get --yes install pinta
 sudo apt-get --yes install speedcrunch
+sudo apt-get --yes install terminator
+sudo apt-get --yes install thunderbird
+sudo apt-get --yes install virtualbox
+sudo apt-get --yes install zeal
 
 sudo snap install slack --classic
-sudo snap install vlc
 sudo snap install spotify
+sudo snap install vlc
 
 # Etcher
 echo "deb https://deb.etcher.io stable etcher" | sudo tee /etc/apt/sources.list.d/balena-etcher.list
@@ -114,7 +115,7 @@ sudo apt-get --yes install syncthing
 # Databases
 #######################################################################
 # Sqlite
-sudo apt-get --yes install sqlite3 
+sudo apt-get --yes install sqlite3
 sudo apt-get --yes install libsqlite3-dev
 sudo apt-get --yes install sqlitebrowser
 
