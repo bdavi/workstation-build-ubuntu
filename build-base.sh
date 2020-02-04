@@ -138,3 +138,5 @@ sudo -u postgres psql postgres -c "alter user postgres with password 'postgres';
 #######################################################################
 # Need this to make guard work with spring on larger projects.
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+npm install -g tldr
