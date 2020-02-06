@@ -21,8 +21,8 @@ asdf update
 
 # Ruby
 sudo apt-get --yes install autoconf bison build-essential \
-	libssl-dev libyaml-dev libreadline6-dev zlib1g-dev \
-	libncurses5-dev libffi-dev libgdbm-dev
+  libssl-dev libyaml-dev libreadline6-dev zlib1g-dev \
+  libncurses5-dev libffi-dev libgdbm-dev
 
 asdf plugin-add ruby
 asdf install ruby latest
@@ -30,9 +30,9 @@ asdf global ruby $(asdf latest ruby)
 
 # Python
 sudo apt-get --yes install --no-install-recommends make build-essential \
-	libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev \
-	wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev \
-	libxmlsec1-dev libffi-dev liblzma-dev
+  libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev \
+  wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev \
+  libxmlsec1-dev libffi-dev liblzma-dev
 
 asdf plugin-add python
 
