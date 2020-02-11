@@ -28,8 +28,10 @@ asdf plugin-add ruby
 asdf install ruby latest
 asdf global ruby $(asdf latest ruby)
 
-gem install rubocop
+gem install bundler
+gem install guard
 gem install rails
+gem install rubocop
 
 # Python
 sudo apt-get --yes install --no-install-recommends make build-essential \
