@@ -70,6 +70,8 @@ sudo apt-get --yes install terminator
 sudo apt-get --yes install thunderbird
 sudo apt-get --yes install virtualbox
 sudo apt-get --yes install zeal
+sudo apt-get --yes install gparted
+sudo apt-get --yes install pandoc
 
 sudo snap install slack --classic
 sudo snap install spotify
@@ -107,9 +109,9 @@ sudo apt-get --yes install syncthing
 
 # Stacer
 # Not available yet for Ubuntu 19.10
-# sudo add-apt-repository --yes ppa:oguzhaninan/stacer
-# sudo apt-get update
-# sudo apt-get --yes install stacer
+sudo add-apt-repository --yes ppa:oguzhaninan/stacer
+sudo apt-get update
+sudo apt-get --yes install stacer
 
 
 #######################################################################

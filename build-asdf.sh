@@ -28,6 +28,9 @@ asdf plugin-add ruby
 asdf install ruby latest
 asdf global ruby $(asdf latest ruby)
 
+gem install rubocop
+gem install rails
+
 # Python
 sudo apt-get --yes install --no-install-recommends make build-essential \
   libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev \
@@ -40,6 +43,8 @@ asdf install python 2.7.17
 asdf install python latest
 asdf global python $(asdf latest python) 2.7.17
 
+pip install pylint
+
 # Node
 sudo apt-get --yes install dirmngr
 sudo apt-get --yes install gpg
@@ -48,6 +53,9 @@ bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 
 asdf install nodejs latest
 asdf global nodejs $(asdf latest nodejs)
+
+npm install -g tldr
+npm install -g ember-cli
 
 # Yarn
 asdf plugin-add yarn
