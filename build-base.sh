@@ -37,7 +37,7 @@ git clone https://github.com/djui/alias-tips.git ~ZSH_CUSTOM/plugins/alias-tips
 # Dotfiles
 #######################################################################
 git clone https://github.com/bdavi/dotfiles.git ~/code/dotfiles
-~/code/dotfiles/scripts/dotfiles/dotfiles install
+~/code/dotfiles/scripts/install_dotfiles
 
 
 #######################################################################
