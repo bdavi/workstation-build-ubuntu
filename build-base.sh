@@ -14,6 +14,7 @@ sudo apt-get --yes install tree
 sudo apt-get --yes install wget
 sudo apt-get --yes install xclip
 sudo apt-get --yes install exfat-fuse exfat-utils
+sudo apt-get --yes install tldr
 
 sudo snap install --classic heroku
 

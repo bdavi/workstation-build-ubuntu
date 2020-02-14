@@ -56,7 +56,6 @@ bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 asdf install nodejs latest
 asdf global nodejs $(asdf latest nodejs)
 
-npm install -g tldr
 npm install -g ember-cli
 
 # Yarn
