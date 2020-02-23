@@ -8,6 +8,7 @@ sudo apt-get update
 sudo apt-get --yes install curl
 sudo apt-get --yes install git
 sudo apt-get --yes install ranger
+sudo apt-get --yes install highlight # Provides syntax highlighting for ranger preview
 sudo apt-get --yes install silversearcher-ag
 sudo apt-get --yes install tmux
 sudo apt-get --yes install tree
