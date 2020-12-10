@@ -5,7 +5,7 @@ sudo apt-get update
 # Tools
 #######################################################################
 sudo apt-get --yes install curl git ranger highlight silversearcher-ag \
-  tmux tree wget xclip exfat-fuse exfat-utils tldr
+  tmux tree wget xclip exfat-fuse exfat-utils tldr shellcheck rofi
 
 sudo snap install --classic heroku
 
@@ -25,6 +25,19 @@ git clone https://github.com/zdharma/fast-syntax-highlighting.git ~/.oh-my-zsh/c
 git clone https://github.com/djui/alias-tips.git ~/.oh-my-zsh/custom/plugins/alias-tips
 
 # MUST LOG OUT/IN HERE
+
+
+#######################################################################
+# i3
+#######################################################################
+sudo add-apt-repository ppa:kgilmer/speed-ricer
+sudo apt-get update
+
+sudo apt-get --yes install i3-gaps-wm
+sudo apt-get --yes install picom
+sudo apt-get --yes install nitrogen
+sudo apt-get --yes install polybar
+
 
 #######################################################################
 # Dotfiles
@@ -48,9 +61,9 @@ vim +'PlugInstall --sync' +qa
 #######################################################################
 # Apps
 #######################################################################
-sudo apt-get --yes install audacity chromium-browser evince flameshot gimp kazam \
-keepassxc libreoffice pinta speedcrunch sakura thunderbird virtualbox zeal \
-gparted pandoc stacer
+sudo apt-get --yes install audacity chromium-browser evince flameshot gimp peek \
+  keepassxc libreoffice pinta speedcrunch sakura thunderbird virtualbox zeal \
+  gparted pandoc stacer inkscape krusader
 
 sudo snap install slack --classic
 sudo snap install vlc
