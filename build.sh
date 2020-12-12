@@ -34,6 +34,7 @@ sudo add-apt-repository ppa:kgilmer/speed-ricer
 sudo apt-get update
 
 sudo apt-get --yes install i3-gaps-wm
+sudo apt-get --yes install i3lock
 sudo apt-get --yes install picom
 sudo apt-get --yes install nitrogen
 sudo apt-get --yes install polybar
