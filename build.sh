@@ -122,6 +122,9 @@ sudo apt-get install -y mongodb-org
 sudo systemctl start mongod
 sudo systemctl enable mongod
 
+# MongoDB Compass
+# Install by hand from here: https://www.mongodb.com/try/download/compass
+
 
 #######################################################################
 # Misc
