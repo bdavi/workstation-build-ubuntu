@@ -208,6 +208,21 @@ asdf plugin-add rust https://github.com/code-lever/asdf-rust.git
 asdf install rust latest
 asdf global rust $(asdf latest rust)
 
+# Erlang
+sudo apt-get -y install build-essential autoconf m4 libncurses5-dev libwxgtk3.0-gtk3-dev libgl1-mesa-dev libglu1-mesa-dev libpng-dev libssh-dev unixodbc-dev xsltproc fop libxml2-utils libncurses-dev openjdk-11-jdk
+
+asdf plugin add erlang https://github.com/asdf-vm/asdf-erlang.git
+asdf install erlang latest
+asdf global erlang $(asdf latest erlang)
+
+# Elixir
+# Make sure Erlang is installed
+sudo apt-get install unzip
+
+asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
+asdf install elixir latest
+asdf global elixir $(asdf latest elixir)
+
 
 #######################################################################
 # Manual Steps
