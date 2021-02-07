@@ -8,6 +8,7 @@ sudo apt-get --yes install curl git ranger highlight silversearcher-ag \
   tmux tree wget xclip exfat-fuse exfat-utils tldr shellcheck rofi
 
 sudo snap install --classic heroku
+sudo apt install x11-xserver-utils
 
 
 #######################################################################
@@ -224,7 +225,6 @@ asdf global rust $(asdf latest rust)
 #   - Multi-Account Containers
 #   - Privacy Badger
 #   - React Developer Tools
-#   - Tabliss
 #   - Vimuim C
 #   - Zotero (https://www.zotero.org/download/)
 #   - uBlock Origin
