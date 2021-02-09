@@ -108,7 +108,7 @@ sudo dpkg -i minikube_latest_amd64.deb
 #######################################################################
 sudo apt-get --yes install audacity chromium-browser evince flameshot gimp peek \
   keepassxc libreoffice pinta speedcrunch sakura thunderbird virtualbox zeal \
-  gparted pandoc stacer inkscape krusader
+  gparted pandoc stacer inkscape krusader barrier
 
 sudo snap install slack --classic
 sudo snap install vlc
