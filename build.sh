@@ -15,6 +15,7 @@ sudo apt install x11-xserver-utils
 # zsh
 #######################################################################
 sudo apt-get --yes install zsh
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 # Set default shell to zsh
@@ -113,6 +114,11 @@ sudo apt-get --yes install audacity chromium-browser evince flameshot gimp peek 
 sudo snap install slack --classic
 sudo snap install vlc
 
+sudo snap install --classic code
+# Eslint, SASS Lint, GitLens, Syntax Highlighting
+
+sudo snap install datagrip --classic
+
 # Etcher
 echo "deb https://deb.etcher.io stable etcher" | sudo tee /etc/apt/sources.list.d/balena-etcher.list
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 379CE192D401AB61
@@ -132,6 +138,15 @@ sudo apt-get --yes install balena-etcher-electron
 # # Update and install syncthing:
 # sudo apt-get update
 # sudo apt-get --yes install syncthing
+
+
+#######################################################################
+# GCloud
+#######################################################################
+echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+sudo apt-get install apt-transport-https ca-certificates gnupg
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
+sudo apt-get update && sudo apt-get install google-cloud-sdk
 
 
 #######################################################################
@@ -240,6 +255,7 @@ asdf install nodejs latest
 asdf global nodejs $(asdf latest nodejs)
 
 npm install -g ember-cli
+npm install -g eslint
 
 # Yarn
 asdf plugin-add yarn
@@ -273,6 +289,7 @@ asdf global elixir $(asdf latest elixir)
 # 1. Setup Zeal docsets
 # 2. SSH keys for github: `ssh-keygen -b 4096`
 # 3. Firefox
+#   - ModHeader
 #   - Canvas Fingerprint Defender
 #   - Cookie AutoDelete
 #   - Decentraleyes
