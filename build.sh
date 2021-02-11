@@ -30,6 +30,13 @@ git clone https://github.com/djui/alias-tips.git ~/.oh-my-zsh/custom/plugins/ali
 
 
 #######################################################################
+# Ansible
+#######################################################################
+sudo apt install ansible
+pip install ansible
+
+
+#######################################################################
 # i3
 #######################################################################
 sudo add-apt-repository ppa:kgilmer/speed-ricer
